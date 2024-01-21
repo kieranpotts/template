@@ -4,14 +4,14 @@
     // AsciiDoc — Provides language support for AsciiDoc.
     "asciidoctor.asciidoctor-vscode",
 
+    // AsciiDoc Snippets — Snippets for AsciiDoc for PDF and HTML output.
+    "travismichette.adoc-snippets",
+
     // Code Spell Checker — Spelling checker for all source code.
     "streetsidesoftware.code-spell-checker",
 
     // EditorConfig — .editorconfig file support.
     "editorconfig.editorconfig",
-
-    // Todo Tree — Browse TODO, FIXME and other comments.
-    "gruntfuggly.todo-tree",
 
   ]
 }
