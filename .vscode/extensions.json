@@ -1,16 +1,16 @@
 {
   "recommendations": [
 
-    // AsciiDoc — Provides language support for AsciiDoc.
+    /* AsciiDoc — Provides language support for AsciiDoc. */
     "asciidoctor.asciidoctor-vscode",
 
-    // AsciiDoc Snippets — Snippets for AsciiDoc for PDF and HTML output.
+    /* AsciiDoc Snippets — Snippets for AsciiDoc for PDF and HTML output. */
     "travismichette.adoc-snippets",
 
-    // Code Spell Checker — Spelling checker for all source code.
+    /* Code Spell Checker — Spelling checker for all source code. */
     "streetsidesoftware.code-spell-checker",
 
-    // EditorConfig — .editorconfig file support.
+    /* EditorConfig — .editorconfig file support. */
     "editorconfig.editorconfig",
 
   ]
