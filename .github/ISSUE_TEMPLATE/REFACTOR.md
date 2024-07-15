@@ -1,8 +1,8 @@
 ---
-name: Refactoring
+name: Refactor
 about: Record design debt or suggest how the internal structure of the program might be improved
 title: ''
-labels: REFACTORING
+labels: REFACTOR
 assignees: ''
 ---
 
