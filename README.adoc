@@ -1,6 +1,6 @@
 = Repository template
 
-image::https://github.com/github/docs/actions/workflows/commit-validation-trunk.yaml/badge.svg?branch=dev[]
+image::https://github.com/kieranpotts/template/actions/workflows/commit-validation-trunk.yaml/badge.svg?branch=dev[]
 
 This repository is a template for new code repositories.
 
