@@ -2,14 +2,30 @@
 name: Maintenance
 about: |
   Plan routine housekeeping and other tasks related to the upkeep of the
-  software system.
+  software system
 title: ""
-labels: maintenance
+labels: MAINTENANCE
 assignees: ""
 ---
 
-Use this issue to log general maintenance work that needs to be undertaken.
+## Description
 
-Maintenance work covers any routine housekeeping tasks and general upkeep of the software system. This category of work includes the upgrading of dependencies and changes to configuration of tools and infrastructure. It also includes changes to other artifacts under source control such as documentation, requirements specifications and test scripts.
+Write a concise description of the maintenance work that needs to be done.
 
-In some cases maintenance work may involve some refactoring of source code and configuration, for example to maintain compatibility with breaking API changes in updated dependencies.
+## Priority
+
+Indicate the priority of the task – high, medium, or low.
+
+## Due
+
+What's the deadline for this, if the work needs to be completed by a specific date – eg. before EOL of a dependency.
+
+## Steps to complete
+
+1. …
+2. …
+3. …
+
+## Additional notes
+
+Add any additional information or context that might be helpful for completing the task.
