@@ -6,17 +6,13 @@ labels: INCIDENT
 assignees: ""
 ---
 
-## Summary
+## Description
 
-Write a brief summary of the incident.
-
-## Detail
-
-Write a more detailed description of the incident, including what happened, how it was discovered, and any immediate impacts.
+Write a short description of this incident. Include the date and time of the incident, what happened, and how it was discovered.
 
 ## Impact
 
-List the systems, applications, or services affected by the incident. Describe how users were impacted, eg. downtime, latency, data loss.
+List the systems, applications, or services affected by the incident. Describe how users were impacted, eg. downtime, latency, or data loss.
 
 ## Timeline
 
@@ -36,7 +32,7 @@ List the stakeholders who were informed about the incident, including a summary 
 
 ## Mitigation strategies
 
-Summarize the actions to be taken following the post-mortem analysis. These should be focused on long-term improvements to prevent similar incidents in the future, rather than the immediate fixes applied to resolve this particular incident.
+Summarize the actions to be taken following the post-mortem analysis. These should be focused on long-term mitigation strategies to prevent similar incidents from recurring in the future, rather than the immediate fixes applied to resolve this particular incident.
 
 ## Additional Information
 

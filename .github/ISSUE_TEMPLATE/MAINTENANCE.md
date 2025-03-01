@@ -10,13 +10,9 @@ assignees: ""
 
 Write a concise description of the maintenance work that needs to be done.
 
-## Priority
-
-Indicate the priority of the task – high, medium, or low.
-
 ## Due
 
-What's the deadline for this, if the work needs to be completed by a specific date – eg. before EOL of a dependency.
+What's the deadline for this, if the work needs to be completed by a specific date, eg. before the EOL of a dependency?
 
 ## Steps to complete
 
@@ -26,4 +22,4 @@ What's the deadline for this, if the work needs to be completed by a specific da
 
 ## Additional notes
 
-Add any additional information or context that might be helpful for completing the task.
+Add any additional information or context that might help to complete this task.
