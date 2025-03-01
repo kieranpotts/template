@@ -1,8 +1,6 @@
 ---
 name: Performance
-about: |
-  Define parameters within which the system must perform, such as speed,
-  security, and availability
+about: Define a constraint within which the system must perform
 title: ""
 labels: PERFORMANCE
 assignees: ""

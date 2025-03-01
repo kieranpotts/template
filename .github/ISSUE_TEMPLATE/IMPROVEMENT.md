@@ -1,8 +1,6 @@
 ---
 name: Improvement
-about: |
-  Record design debt or suggest how the internal structure of the program might
-  be improved
+about: Record refactoring or other work that will improve the developer experience
 title: ""
 labels: IMPROVEMENT
 assignees: ""
