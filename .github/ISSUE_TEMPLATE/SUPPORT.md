@@ -8,6 +8,8 @@ assignees: ""
 
 ## How can we help?
 
+Write your support request here.
+
 ## Checklist
 
 Please check the boxes `[x]`:
