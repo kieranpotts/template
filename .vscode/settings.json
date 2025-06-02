@@ -40,6 +40,20 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 100,
   },
+  "[javascript]": {
+    /* For JS projects only: */
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+  },
+  "[typescript]": {
+    /* For TS projects only: */
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+  },
   "[terraform]": {
     /* Enable autoformatting of Terraform files. */
     "editor.defaultFormatter": "hashicorp.terraform",
@@ -57,6 +71,35 @@
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "js/ts.implicitProjectConfig.checkJs": false,
+
+  /*
+  ESLint extension:
+
+  - Enable support for the new flat-file configuration format,
+    `eslint.config.js`, available since ESLint v8.21.
+  - Enable ESLint as a code formatter.
+  - Enable ESLint for validation of JS and TS source files.
+
+  https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+  */
+
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "typescript"],
+
+  /*
+  Jest extension:
+
+  This is the command used to kick off tests in the terminal. The vscode-jest
+  extension will pass additional options to this command at runtime, so we
+  must append "--" to the "npm run" command to ensure the injected options
+  get forwarded tothe "jest" command.
+
+  https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+  https://github.com/jest-community/vscode-jest#jestcommandline
+  */
+
+  "jest.jestCommandLine": "npm run test -- ",
 
   /* Always prompt before committing to a protected branch. */
   "git.branchProtectionPrompt": "alwaysPrompt",
