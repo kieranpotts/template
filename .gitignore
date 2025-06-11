@@ -10,20 +10,26 @@
 # software stacks here: https://github.com/github/gitignore
 # ==============================================================================
 
-# Build artifacts...
+# Build artifacts (but keep the README or .keep file).
 dist/*
-
-# ... But keep the README.
+!dist/.keep
 !dist/README.adoc
 
-# Vendor dependencies.
+# Managed packages.
 node_modules/*
 
-# Log output.
+# Logs.
 *.log
 
-# Devtool caches.
+# Test coverage.
+coverage/*
+
+# ESLint.
 .eslintcache
 
-# Reports.
-coverage/*
+# Terraform.
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.local.hcl
