@@ -29,7 +29,9 @@ coverage/*
 
 # Terraform.
 .terraform/
-.terraform.lock.hcl
 *.tfstate
 *.tfstate.backup
 *.local.hcl
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
