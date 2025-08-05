@@ -1,4 +1,5 @@
 {
+
   /* Vertical guidelines for line wrapping. */
   "editor.rulers": [
     80,
@@ -6,7 +7,8 @@
     120,
   ],
 
-  /* By default, wrap long lines at the viewport or 120 characters, whichever is narrowest. */
+  /* By default, wrap long lines at the viewport or 120 characters,
+  whichever is narrowest. */
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
 
@@ -29,48 +31,62 @@
     "source.fixAll": "never"
   },
 
-  /* Language-specific overrides. */
+  /*
+  LANGUAGE-SPECIFIC OVERRIDES
+  */
+
+  /* Presentation of AsciiDoc/Markdown documents. */
   "[asciidoc]": {
-    "editor.rulers": [100],
+    "editor.rulers": [
+      100
+    ],
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 100,
   },
   "[markdown]": {
-    "editor.rulers": [100],
+    "editor.rulers": [
+      100
+    ],
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 100,
   },
+
+  /* Disable built-in auto-formatting and validation for JavaScript/TypeScript.
+  (These settings will be applicable if the repository is opened in its own
+  workspace.) Instead, use ESLint for autoformatting of JavaScript/TypeScript
+  files, and other tools for validation. */
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
+
   "[javascript]": {
-    /* For JS projects only: */
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
   },
   "[typescript]": {
-    /* For TS projects only: */
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
   },
+
+  /* Preference for quotes format in JS/TS code. */
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+
+  /* Enable autoformatting of Terraform files using official HashiCorp extension. */
   "[terraform]": {
-    /* Enable autoformatting of Terraform files. */
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
   },
 
-  /* Preference for quotes in JS/TS code. */
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-
-  /* Disable auto-formatting and validation for JavaScript/TypeScript. These
-  settings MUST be applied at the workspace level. */
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false,
-  "js/ts.implicitProjectConfig.checkJs": false,
+  /*
+  GIT SETTINGS
+  */
 
   /* Always prompt before committing to a protected branch. */
   "git.branchProtectionPrompt": "alwaysPrompt",
@@ -99,31 +115,33 @@
   "asciidoc.preview.useEditorStyle": true,
 
   /*
-  ESLint extension:
-
-  - Enable support for the new flat-file configuration format,
-    `eslint.config.js`, available since ESLint v8.21.
-  - Enable ESLint as a code formatter.
-  - Enable ESLint for validation of JS and TS source files.
-
+  ESLint extension.
   https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
   */
 
+  /* Enable support for the new flat-file configuration format,
+  `eslint.config.js`, available since ESLint v8.21. */
   "eslint.useFlatConfig": true,
+
+  /* Enable ESLint as a code formatter. */
   "eslint.format.enable": true,
-  "eslint.validate": ["javascript", "typescript"],
+
+  /* Enable ESLint for validation of JS and TS source files. */
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
 
   /*
-  Jest extension:
-
-  This is the command used to kick off tests in the terminal. The vscode-jest
-  extension will pass additional options to this command at runtime, so we
-  must append "--" to the "npm run" command to ensure the injected options
-  get forwarded tothe "jest" command.
-
+  Jest extension.
   https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
   https://github.com/jest-community/vscode-jest#jestcommandline
   */
 
+  /* This is the command used to kick off tests in the terminal. The vscode-jest
+  extension will pass additional options to this command at runtime, so
+  we must append `--` to the `npm run` command to ensure the injected options
+  get forwarded to the `jest` command. */
   "jest.jestCommandLine": "npm run test -- ",
+
 }
