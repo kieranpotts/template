@@ -1,8 +1,6 @@
 {
   /*
-  Global debug launch configuration, used as an alternative to `launch.json`
-  when the debugging config is shared across a whole workspace.
-
+  Debug launch configuration.
   This sample configuration enables `vscode-jest` as the debugging tool.
   https://go.microsoft.com/fwlink/?linkid=830387
   https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configurations-for-common-scenarios
