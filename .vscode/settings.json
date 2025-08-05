@@ -109,7 +109,7 @@
   https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
   */
 
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   "eslint.format.enable": true,
   "eslint.validate": ["javascript", "typescript"],
 
