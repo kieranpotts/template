@@ -10,5 +10,11 @@
     /* EditorConfig — .editorconfig file support. */
     "editorconfig.editorconfig",
 
+    /* ESLint — Linting and formatting for JavaScript and TypeScript. */
+    "dbaeumer.vscode-eslint",
+
+    /* Terraform — Language support for Terraform/HCL configuration files. */
+    "hashicorp.terraform",
+
   ]
 }
