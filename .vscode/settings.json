@@ -51,12 +51,14 @@
     "editor.wordWrapColumn": 100,
   },
 
+  /* Preference for quotes format in JS/TS code. */
+  "js/ts.preferences.quoteStyle": "single",
+
   /* Disable built-in auto-formatting and validation for JavaScript/TypeScript.
-  (These settings will be applicable if the repository is opened in its own
-  workspace.) Instead, use ESLint for autoformatting of JavaScript/TypeScript
-  files, and other tools for validation. */
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false,
+  Instead, use ESLint for autoformatting of JavaScript/TypeScripe files, and 
+  other tools for validation. */
+  "js/ts.format.indentSwitchCase": false,
+  "js/ts.validate.enabled": false,
   "js/ts.implicitProjectConfig.checkJs": false,
 
   "[javascript]": {
@@ -71,10 +73,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
   },
-
-  /* Preference for quotes format in JS/TS code. */
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
 
   /* Enable autoformatting of Terraform files using official HashiCorp extension. */
   "[terraform]": {
