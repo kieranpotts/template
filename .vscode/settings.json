@@ -1,5 +1,9 @@
 {
 
+  /*
+  EDITOR SETTINGS
+  */
+
   /* Vertical guidelines for line wrapping. */
   "editor.rulers": [
     80,
@@ -32,35 +36,21 @@
   },
 
   /*
-  LANGUAGE-SPECIFIC OVERRIDES
+  EDITOR SETTINGS: LANGUAGE-SPECIFIC OVERRIDES
   */
 
-  /* Presentation of AsciiDoc/Markdown documents. */
+  /* Wrap documentation at 72 characters. */
   "[asciidoc]": {
-    "editor.rulers": [
-      100
-    ],
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 100,
+    "editor.wordWrapColumn": 72,
   },
   "[markdown]": {
-    "editor.rulers": [
-      100
-    ],
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 100,
+    "editor.wordWrapColumn": 72,
   },
 
-  /* Preference for quotes format in JS/TS code. */
-  "js/ts.preferences.quoteStyle": "single",
-
-  /* Disable built-in auto-formatting and validation for JavaScript/TypeScript.
-  Instead, use ESLint for autoformatting of JavaScript/TypeScripe files, and 
-  other tools for validation. */
-  "js/ts.format.indentSwitchCase": false,
-  "js/ts.validate.enabled": false,
-  "js/ts.implicitProjectConfig.checkJs": false,
-
+  /* Opt back in to auto-formatting for JS/TS files.
+  Use the ESLint extesion for this. */
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnPaste": true,
@@ -74,7 +64,8 @@
     "editor.formatOnType": true,
   },
 
-  /* Enable autoformatting of Terraform files using official HashiCorp extension. */
+  /* Enable auto-formatting of Terraform files using
+  the official HashiCorp extension. */
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnPaste": true,
@@ -83,34 +74,25 @@
   },
 
   /*
-  GIT SETTINGS
+  LANGUAGE-SPECIFIC SETTINGS: ECMASCRIPT
   */
 
-  /* Always prompt before committing to a protected branch. */
-  "git.branchProtectionPrompt": "alwaysPrompt",
-  "git.branchProtection": [
-    // "stable",
-    // "release/*",
-  ],
+  /* Disable the built-in auto-formatting and validation for
+  JavaScript/TypeScript. Instead, the configuration above enables
+  the ESLint extension for auto-formatting of JS/TS files. */
+  "js/ts.format.indentSwitchCase": false,
+  "js/ts.validate.enabled": false,
+
+  /* Disable VS Code's built-in semantic checking of JS/TS files. Use
+  `jsconfig.json` or `tsconfig.json` to configure this, instead. */
+  "js/ts.implicitProjectConfig.checkJs": false,
+
+  /* Preference for quotes format in JS/TS code. */
+  "js/ts.preferences.quoteStyle": "single",
 
   /*
   EXTENSION SETTINGS
-  The following settings are applicable for the extensions listed in
-  the extension recommendations in `extensions.json`.
   */
-
-  /*
-  Asciidoc extension.
-  https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode
-  */
-
-  /* Enable Antora support. */
-  "asciidoc.antora.showEnableAntoraPrompt": true,
-
-  /* When previewing Asciidoc files, use VS Code's workbench color theme,
-  rather than the default Asciidoc style. This ensures the colors of the
-  preview are consistent with the enabled VS Code theme. */
-  "asciidoc.preview.useEditorStyle": true,
 
   /*
   ESLint extension.
@@ -129,17 +111,5 @@
     "javascript",
     "typescript"
   ],
-
-  /*
-  Jest extension.
-  https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
-  https://github.com/jest-community/vscode-jest#jestcommandline
-  */
-
-  /* This is the command used to kick off tests in the terminal. The vscode-jest
-  extension will pass additional options to this command at runtime, so
-  we must append `--` to the `npm run` command to ensure the injected options
-  get forwarded to the `jest` command. */
-  "jest.jestCommandLine": "npm run test -- ",
 
 }
