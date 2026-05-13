@@ -27,5 +27,5 @@ xxx
 
 ## References
 
-- `references/REFERENCE.md` — full technical reference.
-- `references/<subdomain>.md` — domain-specific notes.
+- `references/REFERENCE.md`: Full technical reference.
+- `references/<subdomain>.md`: Domain-specific notes.

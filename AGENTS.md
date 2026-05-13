@@ -31,7 +31,7 @@ A short paragraph describing what this project does, who it is for, and any cons
 
 ## Skills
 
-- `./skills/release/SKILL.md` — checklist for cutting a release.
-- `./skills/migration/SKILL.md` — guidance for writing database migrations.
-- `../skills/code-review/SKILL.md` — code review checklist.
-- `https://example.com/standards/api-design/treee/main/SKILL.md` — HTTP API design conventions.
+- `./skills/release/SKILL.md`: Checklist for cutting a release.
+- `./skills/migration/SKILL.md`: Guidance for writing database migrations.
+- `../skills/code-review/SKILL.md`: Code review checklist.
+- `https://example.com/standards/api-design/treee/main/SKILL.md`: HTTP API design conventions.
