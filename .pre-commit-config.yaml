@@ -13,9 +13,18 @@
 #   pre-commit run --all-files
 # ==============================================================================
 
-repos: []
+default_install_hook_types: [pre-commit, commit-msg]
 
-# Add hooks below. Examples:
+repos:
+  - repo: local
+    hooks:
+      - id: validate-commit-message
+        name: Validate commit message format
+        entry: python3 .pre-commit-hooks/validate_commit_message.py
+        language: system
+        stages: [commit-msg]
+
+# Add more hooks below. Examples:
 #
 # - repo: https://github.com/pre-commit/pre-commit-hooks
 #   rev: v4.5.0

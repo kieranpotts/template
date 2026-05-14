@@ -6,15 +6,23 @@ This repository is a template for new code repositories.
 
 == Development setup
 
-It is RECOMMENDED to install the https://pre-commit.com[pre-commit] framework to enable local validation hooks before committing:
+It is RECOMMENDED to install the https://pre-commit.com[pre-commit] framework to enable local validation hooks before committing. You need only to run the following command one to install pre-commit system-wide:
 
 [source,bash]
 ----
 pip install pre-commit
+----
+
+Then install the pre-commit hooks in every local repository where you want pre-commit checks to be run:
+
+[source,bash]
+----
 pre-commit install
 ----
 
-Configure validation checks for your project by editing `.pre-commit-config.yaml`. See the file for examples and the https://pre-commit.com[pre-commit documentation] for available hooks.
+This installs all hook types declared in `.pre-commit-config.yaml` (including `commit-msg`).
+
+Configure validation checks for your project by editing `.pre-commit-config.yaml`. See the https://pre-commit.com[pre-commit documentation] for details.
 
 ''''
 
