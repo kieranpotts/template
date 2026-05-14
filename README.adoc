@@ -20,9 +20,9 @@ Then install the pre-commit hooks in every local repository where you want pre-c
 pre-commit install
 ----
 
-This installs all hook types declared in `.pre-commit-config.yaml` (including `commit-msg`).
+This installs all hook types declared in `.pre-commit-config.yaml` (`pre-commit`, `commit-msg`).
 
-Configure validation checks for your project by editing `.pre-commit-config.yaml`. See the https://pre-commit.com[pre-commit documentation] for details.
+Edit `./.pre-commit-config.yaml` to configure the pre-commit validation checks you want for your project. See the https://pre-commit.com[pre-commit documentation] for details.
 
 ''''
 
