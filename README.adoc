@@ -4,6 +4,18 @@ image::https://github.com/kieranpotts/template/actions/workflows/commit-validati
 
 This repository is a template for new code repositories.
 
+== Development setup
+
+It is RECOMMENDED to install the https://pre-commit.com[pre-commit] framework to enable local validation hooks before committing:
+
+[source,bash]
+----
+pip install pre-commit
+pre-commit install
+----
+
+Configure validation checks for your project by editing `.pre-commit-config.yaml`. See the file for examples and the https://pre-commit.com[pre-commit documentation] for available hooks.
+
 ''''
 
 Copyright © 2020-present Kieran Potts, link:./LICENSE.txt[MIT license]
