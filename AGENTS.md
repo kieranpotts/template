@@ -17,13 +17,13 @@ A short paragraph describing what this project does, who it is for, and any cons
 - `docs/` – developer/maintainer docs, including architectural decision records.
 - `skills/` – on-demand context for agents.
 
-## Dev tools
+## Tools
 
 - `command` to build production-grade artifacts.
 - `command` for linting.
 - `command` for testing.
 
-## House rules
+## Rules
 
 - MUST NOT do this.
 - SHOULD do this.
