@@ -1,3 +1,7 @@
+#
+# Validate commit message formats.
+#
+
 name: Commit validation
 
 on:

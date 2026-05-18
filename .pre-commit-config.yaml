@@ -1,4 +1,4 @@
-# ==============================================================================
+#
 # Pre-commit hooks configuration.
 #
 # See https://pre-commit.com for more information.
@@ -11,7 +11,7 @@
 #
 # Run against all files (useful after adding new hooks):
 #   pre-commit run --all-files
-# ==============================================================================
+#
 
 default_install_hook_types: [pre-commit, commit-msg]
 
