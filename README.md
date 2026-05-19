@@ -1,7 +1,5 @@
 # Repository template
 
-![](https://github.com/kieranpotts/template/actions/workflows/commit-validation-trunk.yaml/badge.svg?branch=dev)
-
 This repository is a template for new code repositories.
 
 ## Development setup
