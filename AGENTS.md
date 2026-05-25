@@ -11,11 +11,11 @@ A short paragraph describing what this project does, who it is for, and any cons
 
 ## Repository structure
 
-- `src/` – application source.
-- `tests/` – automated tests (unit, integration, system).
-- `run/` – dev tools (Bash scripts).
-- `docs/` – developer/maintainer docs, including architectural decision records.
-- `skills/` – on-demand context for agents.
+- `src/`: Application source.
+- `tests/`: Automated tests (unit, integration, system).
+- `run/`: Dev tools (Bash scripts).
+- `docs/`: Developer/maintainer docs, including architectural decision records.
+- `skills/`: On-demand context for agents.
 
 ## Tools
 
