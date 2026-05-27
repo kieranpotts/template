@@ -5,7 +5,7 @@
 It is RECOMMENDED to install the [pre-commit](https://pre-commit.com) framework to enable local validation hooks before committing. You need only to run the following command once to install pre-commit system-wide:
 
 ```bash
-pip install pre-commit
+pipx install pre-commit
 ```
 
 Then install the pre-commit hooks in every local repository where you want pre-commit checks to be run:
