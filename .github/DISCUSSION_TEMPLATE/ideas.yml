@@ -5,6 +5,6 @@ body:
     id: pr
     attributes:
       label: PR
-      description: Link to the pull request, if applicable
+      description: Link to the pull request, if applicable.
     validations:
       required: false
