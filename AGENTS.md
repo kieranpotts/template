@@ -32,7 +32,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 - **`command`** for testing.
 
-## Artifacts
+## Documentation
 
 - **Audit reports**:
   ./docs/audits/ (mono-repo)
@@ -61,5 +61,5 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 - **`../skills/code-review/SKILL.md`**:
   Generic code review checklist.
 
-- **`https://example.com/standards/api-design/tree/main/SKILL.md`**:
+- **<https://example.com/standards/api-design/tree/main/SKILL.md>**:
   API design conventions.
