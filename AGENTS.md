@@ -14,41 +14,41 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Project structure
 
-- **`src/`** \
+- **[src/](./src/)** \
   Application source.
 
-- **`tests/`** \
+- **[tests/](./tests/)** \
   Automated tests (unit, integration, system).
 
-- **`run/`** \
+- **[run/](./run)** \
   Dev tools (Bash scripts).
 
-- **`docs/`** \
+- **[docs/](./docs/)** \
   Developer/maintainer docs, including architectural decision records.
 
-- **`skills/`** \
+- **[skills/](./skills)** \
   On-demand context for agents.
 
 ## Documentation
 
 - **Architecture audit reports** \
-  `./docs/audits/` (mono-repo) | https://github.com/kieranpotts/audits (multi-repo)
+  [docs/audits/](./docs/audits/) (mono-repo) | <https://github.com/kieranpotts/audits> (multi-repo)
 
 - **Design docs** \
-  `./docs/design/` (mono-repo) | https://github.com/kieranpotts/design (multi-repo)
+  [docs/design/](./docs/design/) (mono-repo) | <https://github.com/kieranpotts/design> (multi-repo)
 
 - **Delivery plans** \
-  `./docs/plans/` (mono-repo) | https://github.com/kieranpotts/plans (multi-repo)
+  [docs/plans/](./docs/plans/) (mono-repo) | <https://github.com/kieranpotts/plans> (multi-repo)
 
 - **Requests for Comments (RFCs)** \
   Includes key design decisions (KDDs) and architecture decision records (ADRs). \
-  `./docs/rfc/` (mono-repo) | https://github.com/kieranpotts/rfc (multi-repo)
+  [docs/rfc/](./docs/rfc/) (mono-repo) | <https://github.com/kieranpotts/rfc> (multi-repo)
 
 - **Risk register** \
-  `./docs/risks/` (mono-repo) | https://github.com/kieranpotts/risks (multi-repo)
+  [docs/risks/](./docs/risks/) (mono-repo) | <https://github.com/kieranpotts/risks> (multi-repo)
 
 - **Software requirements specification (SRS)** \
-  `./docs/specs/` (mono-repo) | https://github.com/kieranpotts/specs (multi-repo)
+  [docs/specs/](./docs/specs/) (mono-repo) | <https://github.com/kieranpotts/specs> (multi-repo)
 
 ## Team
 
@@ -57,15 +57,15 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
   decision-maker when requirements conflict.
 
 - **[Name] — Tech Lead / Architect** \
-  Owns architecture decisions, design docs (`./docs/design/`), and RFCs
-  (`./docs/rfc/`). Reviews significant structural changes.
+  Owns architecture decisions, design docs, and RFCs.
+  Reviews significant structural changes.
 
 - **[Name] — Security Lead** \
-  Runs threat modeling sessions, owns the risk register (`./docs/risks/`),
+  Runs threat modeling sessions, owns the risk register,
   and reviews changes to authentication, authorization, and data handling.
 
 - **[Name] — QA / Test Lead** \
-  Owns test strategy and the automated test suite (`./tests/`). Signs off on
+  Owns test strategy and the automated test suite. Signs off on
   acceptance testing before release.
 
 - **[Name] — Release Manager** \
@@ -73,11 +73,11 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
   cut and what ships in it.
 
 - **[Name] — Documentation Owner** \
-  Maintains developer and maintainer docs (`./docs/`), including keeping
+  Maintains developer and maintainer docs, including keeping
   architectural decision records up to date.
 
 - **[Name] — Product Owner** \
-  Owns the requirements specification (`./docs/specs/`) and prioritizes the
+  Owns the requirements specification and prioritizes the
   backlog. First point of contact for scope questions.
 
 ## Tools
@@ -101,13 +101,13 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Skills
 
-- **`./skills/release/SKILL.md`** \
+- **[skills/release/SKILL.md](./skills/release/SKILL.md)** \
   Checklist for cutting a release.
 
-- **`./skills/migration/SKILL.md`** \
+- **[skills/migration/SKILL.md](./skills/migration/SKILL.md)** \
   Guidance for writing database migrations.
 
-- **`../skills/code-review/SKILL.md`** \
+- **[../skills/code-review/SKILL.md](../skills/code-review/SKILL.md)** \
   Generic code review checklist.
 
 - **<https://example.com/standards/api-design/tree/main/SKILL.md>** \
