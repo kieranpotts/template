@@ -101,14 +101,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Skills
 
-- **[skills/release/SKILL.md](./skills/release/SKILL.md)** \
-  Checklist for cutting a release.
-
-- **[skills/migration/SKILL.md](./skills/migration/SKILL.md)** \
-  Guidance for writing database migrations.
-
-- **[../skills/code-review/SKILL.md](../skills/code-review/SKILL.md)** \
-  Generic code review checklist.
-
-- **<https://example.com/standards/api-design/tree/main/SKILL.md>** \
-  API design conventions.
+The **[.agents/skills/](./.agents/skills/)** directory provides on-demand skills
+for managing this repository. See the [README](./.agents/skills/README.md) in
+that directory for descriptions of the available skills and the situations
+when you should use them.
