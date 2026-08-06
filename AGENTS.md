@@ -26,7 +26,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 - **[docs/](./docs/)** \
   Developer/maintainer docs, including architectural decision records.
 
-- **[skills/](./skills)** \
+- **[.agents/skills/](./.agents/skills/)** \
   On-demand context for agents.
 
 ## Documentation
@@ -105,6 +105,11 @@ The **[.agents/skills/](./.agents/skills/)** directory provides on-demand skills
 for managing this repository. See the [README](./.agents/skills/README.md) in
 that directory for descriptions of the available skills and the situations
 when you should use them.
+
+`.claude/skills` is a symlink to that directory, since Claude Code discovers
+skills only under `.claude/`. It is not a second copy, and skills MUST NOT be
+added to it directly. The README covers the reasoning and how to recreate the
+link.
 
 ## References
 
