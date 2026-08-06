@@ -1,5 +1,5 @@
 #
-# Lint added/modified files for compliance with .editorconfig.
+# Lint the repository's files for compliance with .editorconfig.
 #
 # https://github.com/editorconfig-checker/editorconfig-checker
 #
@@ -14,31 +14,33 @@ on:
 permissions:
   contents: read
 
+# Only the newest run per branch is useful. Cancel any run that a
+# subsequent push has superseded.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint-editorconfig:
     name: Lint EditorConfig compliance
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Get changed files
-        id: files
-        uses: jitterbit/get-changed-files@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.20'
-
+      # This action only downloads the `editorconfig-checker` binary and adds
+      # it to PATH — it does not run the checker. The `version` input MUST be
+      # an exact release tag of the checker itself.
       - name: Install EditorConfig checker
-        run: go install 'github.com/editorconfig-checker/editorconfig-checker/cmd/editorconfig-checker@latest'
+        uses: editorconfig-checker/action-editorconfig-checker@840e866d93b8e032123c23bac69dece044d4d84c # v2.2.0
+        with:
+          version: v3.8.0
 
+      # Given no file arguments, the checker tests every file tracked by Git.
+      # The `github-actions` output format reports violations as annotations
+      # against the offending lines.
       - name: Run EditorConfig checker
-        run: echo "$FILES" | xargs ~/go/bin/editorconfig-checker
-        env:
-          FILES: "${{ steps.files.outputs.added_modified }}"
+        run: editorconfig-checker -format github-actions

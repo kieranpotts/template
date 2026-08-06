@@ -15,6 +15,7 @@ jobs:
   stale-issues:
     name: Check for stale issues
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check for stale issues
         uses: kieranpotts/actions/stale-issues@latest/dev
