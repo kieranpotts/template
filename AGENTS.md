@@ -93,6 +93,23 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Rules
 
+- The root [README](./README.md) is for *users* of the project: requirements,
+  installation, and usage. Material for developers and maintainers MUST NOT be
+  added to it. That belongs in [CONTRIBUTING.md](./CONTRIBUTING.md), which
+  indexes the pages in [docs/](./docs/).
+
+- The README's second-level headings are prefixed with an emoji, drawn from
+  this fixed vocabulary. Do not invent new ones, and do not use emoji in
+  headings anywhere else:
+
+  | Emoji | Heading                 |
+  | ----- | ----------------------- |
+  | ☑️     | Requirements            |
+  | 📦    | Installation            |
+  | 🧭    | Usage                   |
+  | 📖    | User manual             |
+  | 📓    | Developer documentation |
+
 - MUST NOT do this.
 
 - SHOULD do this.
