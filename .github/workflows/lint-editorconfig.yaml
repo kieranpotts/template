@@ -1,0 +1,44 @@
+#
+# Lint added/modified files for compliance with .editorconfig.
+#
+# https://github.com/editorconfig-checker/editorconfig-checker
+#
+
+name: Lint EditorConfig
+
+on:
+  push:
+    branches:
+      - "**"
+
+permissions:
+  contents: read
+
+jobs:
+  lint-editorconfig:
+    name: Lint EditorConfig compliance
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: files
+        uses: jitterbit/get-changed-files@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.20'
+
+      - name: Install EditorConfig checker
+        run: go install 'github.com/editorconfig-checker/editorconfig-checker/cmd/editorconfig-checker@latest'
+
+      - name: Run EditorConfig checker
+        run: echo "$FILES" | xargs ~/go/bin/editorconfig-checker
+        env:
+          FILES: "${{ steps.files.outputs.added_modified }}"
