@@ -2,17 +2,25 @@
 
 The following skills are available to support the maintenance of this repository.
 
-- **[skills/release/SKILL.md](./skills/release/SKILL.md)** \
+Every skill MUST be listed here, with a link to its `SKILL.md` and a summary of
+the situation in which an agent should reach for it. A skill that lives outside
+this directory — elsewhere in the repository, or in another repository
+altogether — SHOULD still be listed, so that this file is a complete index.
+
+The entries below are illustrative. Replace them with the skills this project
+actually provides.
+
+- **[release/SKILL.md](./release/SKILL.md)** \
   Checklist for cutting a release.
 
-- **[skills/migration/SKILL.md](./skills/migration/SKILL.md)** \
+- **[migration/SKILL.md](./migration/SKILL.md)** \
   Guidance for writing database migrations.
 
-- **[../skills/code-review/SKILL.md](../skills/code-review/SKILL.md)** \
-  Generic code review checklist.
+- **[../../tools/skills/code-review/SKILL.md](../../tools/skills/code-review/SKILL.md)** \
+  Generic code review checklist, shared by every package in this mono-repo.
 
-- **<https://example.com/standards/api-design/tree/main/SKILL.md>** \
-  API design conventions.
+- **<https://example.com/standards/api-design/blob/main/SKILL.md>** \
+  API design conventions, maintained outside this repository.
 
 ## Compatibility
 
