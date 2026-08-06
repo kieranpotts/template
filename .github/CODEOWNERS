@@ -1,0 +1,24 @@
+#
+# Code owners are automatically requested to review pull requests that touch
+# the files they own. The last matching pattern wins, so order the rules from
+# the most general to the most specific.
+#
+# Every account or team named here MUST have write access to the repository,
+# else GitHub silently ignores the rule.
+#
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+
+# Default owner for everything in the repository.
+*                       @kieranpotts
+
+# Examples of narrower ownership. Delete or replace these.
+
+# Build and delivery pipelines.
+#/.github/workflows/    @kieranpotts
+
+# Infrastructure as code.
+#/infra/                @kieranpotts
+
+# Documentation.
+#/docs/                 @kieranpotts
