@@ -1,23 +1,23 @@
 # Repository template
 
-A template for new code repositories.
+**A template for new code repositories.**
 
-Everything below this line is for users of the project. Anything aimed at
-developers and maintainers belongs in [CONTRIBUTING.md](./CONTRIBUTING.md) and
-the [docs/](./docs/) directory it indexes.
+The root-level `README` provides usage instructions for end users.
 
 ## ☑️ Requirements
 
 What must be installed, and what versions are supported, before the project can
-be used. Keep this to the runtime requirements — tooling needed only to work on
-the project goes in the contributing guidelines.
+be used.
+
+Keep this to the runtime requirements. Tooling needed for development and
+maintenance of the project goes in the contributing guidelines.
 
 ## 📦 Installation
 
-How to obtain and install the project, with the commands to run:
+How to obtain and install the project, with the commands to run.
 
 ```sh
-command
+command --help
 ```
 
 ## 🧭 Usage

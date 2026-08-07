@@ -71,7 +71,7 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
   [`docs/plans/`](./docs/plans/) (mono-repo) | <https://github.com/kieranpotts/plans> (multi-repo)
 
 - **Architecture decision records (ADRs)** \
-  [`docs/adr/`](./docs/adr/) (mono-repo) | <https://github.com/kieranpotts/rfc> (multi-repo)
+  [`docs/decisions/`](./docs/decisions/) (mono-repo) | <https://github.com/kieranpotts/rfc> (multi-repo)
 
 - **Architecture audit reports** \
   [`docs/audits/`](./docs/audits/) (mono-repo) | <https://github.com/kieranpotts/audits> (multi-repo)
