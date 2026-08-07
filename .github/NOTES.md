@@ -1,5 +1,8 @@
 # GitHub configuration
 
+<!-- Don't name this file README.md. GitHub will render it in place of the
+root-level README from the project landing page. -->
+
 PR and issue templates are automatically inherited from `kieranpotts/.github`.
 
 The following are configured per-repository:
