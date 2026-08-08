@@ -12,8 +12,8 @@ types, which is written as the prefix of the commit message header.
 
 | Type          | Covers                                                                        |
 | ------------- | ----------------------------------------------------------------------------- |
-| `feature`     | A new, changed, deprecated, or removed user-facing behavior.                  |
-| `runtime`     | A change to a dynamic quality attribute — latency, throughput, security, etc. |
+| `behavior`    | A new, changed, deprecated, or removed user-facing behavior.                  |
+| `quality`     | A change to a dynamic quality attribute — latency, throughput, security, etc. |
 | `fix`         | Resolution of a defect: bug, regression, vulnerability, incident.             |
 | `step`        | An increment toward a larger change, not user-facing on its own.              |
 | `refactor`    | An improvement to internal design or structure, behavior unchanged.           |
@@ -26,7 +26,7 @@ types, which is written as the prefix of the commit message header.
 
 Two distinctions are easy to get wrong:
 
-- **`runtime` vs. `refactor`.** Runtime revisions improve external, dynamic
+- **`quality` vs. `refactor`.** Quality revisions improve external, dynamic
   qualities that users can observe or measure. Refactors improve internal,
   static qualities that only developers see.
 
@@ -77,7 +77,7 @@ chore: initial commit, add readme
 step: add openapi specification
 fix: invalid yaml formatting
 refactor: move openapi spec to resources directory
-feature: enable route to openapi spec
+behavior: enable route to openapi spec
 release: v0.0.0-beta
 ```
 
@@ -95,7 +95,7 @@ spaced hyphen and written in full capitals.
 | `TEMPORARY`  | A change that will definitely be reverted, such as debug output.             |
 
 ```txt
-feature: remove password from login endpoint - BREAKING
+behavior: remove password from login endpoint - BREAKING
 step: remove third param of login action - INCOMPAT
 maintenance: add more logging - TEMPORARY
 ```
