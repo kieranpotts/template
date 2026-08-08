@@ -69,12 +69,32 @@ repository:
 # This is handled separately by the "Push Labels" / "Sync Labels" workflows,
 # which effectively allow labels to be defined once in a single repository and
 # from there synced with multiple other repositories.
+##labels:
+##  - name: 'Label Name'
+##    color: FFFFFF
 
-#labels:
-#  - name: 'Label Name'
-#    color: FFFFFF
+# Issue/PR milestones.
+##milestones:
 
 # Configure branch protection rules.
 branches:
   - name: latest/dev
     protection: null
+
+# GitHub's newer branch/tag/push protection rules.
+##rulesets:
+
+# Deployment environments and required reviewers.
+##environments:
+
+# Auto-linking issue-tracker shortcodes.
+##autolinks:
+
+# Workflow permissions and artifact retention.
+##actions:
+
+# Per-user repository permissions.
+##collaborators:
+
+# Term permissions (org only).
+##teams:
