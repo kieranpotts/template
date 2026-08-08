@@ -1,3 +1,10 @@
+#
+# Task runner for this project's development lifecycle. Each target wraps a
+# same-named script in `run/`.
+#
+# See: docs > development > tools.
+#
+
 .DEFAULT_GOAL := help
 
 install: ## Install project dependencies

@@ -10,5 +10,8 @@ workflow.
   The revision types, commit message format, and committing practices this
   repository expects.
 
+- [**Tools**](./tools.md) \
+  The `Makefile` and `run/` scripts that drive the development lifecycle.
+
 Add a page per development topic as the project grows — testing, releasing,
 operations — and index it above.
