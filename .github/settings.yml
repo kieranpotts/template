@@ -26,7 +26,7 @@ repository:
   # A URL with more information about the project.
   homepage: ''
 
-  # A comma-separated list of topics.
+  # A list of topics.
   topics: []
 
   # Is this a private repository?
