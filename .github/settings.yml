@@ -76,13 +76,26 @@ repository:
 # Issue/PR milestones.
 ##milestones:
 
-# Configure branch protection rules.
+# Configure branch and classic protection rules.
 branches:
   - name: latest/dev
     protection: null
 
 # GitHub's newer branch/tag/push protection rules.
-##rulesets:
+rulesets:
+  - name: Trunks
+    target: branch
+    enforcement: active
+    conditions:
+      ref_name:
+        include:
+          - '~DEFAULT_BRANCH'
+        exclude: []
+    rules:
+      - type: deletion
+      - type: non_fast_forward
+      - type: required_linear_history
+    bypass_actors: []
 
 # Deployment environments and required reviewers.
 ##environments:
