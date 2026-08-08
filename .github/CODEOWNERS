@@ -12,6 +12,15 @@
 # Default owner for everything in the repository.
 *                       @kieranpotts
 
+# `settings.yml` is applied to the repository's actual GitHub configuration
+# by the `apply-settings` workflow, using an admin-scoped token. In effect,
+# this escalates anyone who can push the `settings.yml` file to the default
+# branch to the admin role, without giving that user explicit admin privileges.
+# Therefore it is RECOMMENDED to explicitly define the codeowners for this
+# specific file. These users will need to approve all changes to the file
+# introduced to the default branch.
+/.github/settings.yml   @kieranpotts
+
 # Examples of narrower ownership. Delete or replace these.
 
 # Build and delivery pipelines.
