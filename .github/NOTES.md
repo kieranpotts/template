@@ -17,6 +17,10 @@ The following are configured per-repository:
 - **[DISCUSSION_TEMPLATE/](./DISCUSSION_TEMPLATE/)** \
   Forms for new discussion threads.
 
+- **[settings.yml](./settings.yml)** \
+  Repository configuration, applied by the `apply-settings` workflow on
+  push to the default branch.
+
 - **[workflows/](./workflows/)** \
   GitHub Actions workflows.
 

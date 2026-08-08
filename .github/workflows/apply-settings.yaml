@@ -37,7 +37,7 @@ jobs:
 
       # ADMIN_TOKEN is a fine-grained PAT with `administration: write` on this
       # repository, plus writes on whichever other sections are in use in
-      # settings.yml.
+      # `settings.yml`. See the developer docs for setup instructions.
       - name: Apply settings
         uses: Vivswan/repo-settings-as-code@c61dc8377b71c8ff80849a72a8c4705df549c4c8 # v1.0.1
         with:

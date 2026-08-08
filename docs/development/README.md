@@ -13,5 +13,8 @@ workflow.
 - [**Tools**](./tools.md) \
   The `Makefile` and `run/` scripts that drive the development lifecycle.
 
+- [**Repository settings**](./repository-settings.md) \
+  This repository's configuration is managed in code.
+
 Add a page per development topic as the project grows — testing, releasing,
 operations — and index it above.
