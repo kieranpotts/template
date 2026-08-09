@@ -81,6 +81,8 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Tools
 
+The following commands are available to automate development lifecycle steps.
+
 - **`command`** \
   Build production-grade artifacts.
 
@@ -89,6 +91,30 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 - **`command`** \
   Runs the automated test suite.
+
+## Utilities
+
+Besides standard Debian utilities available in the bookworm-slim base image,
+the following programs are installed in your environment.
+
+- **`codespell`**
+- **`curl`**
+- **`ec`** (editorconfig-checker)
+- **`gh`** (GitHub CLI)
+- **`git`** and **`git-lfs`**
+- **`gpg`** (GnuPG)
+- **`jq`**
+- **`make`**
+- **`nvm`** and **`node`**
+- **`pre-commit`**
+- **`python3`**
+- **`rg`** (ripgrep)
+- **`shellcheck`**
+- **`skills-ref`**
+- **`tar`**
+- **`tmux`**
+- **`unzip`**
+- **`wget`**
 
 ## Rules
 
