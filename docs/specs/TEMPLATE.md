@@ -4,7 +4,7 @@
 - Created: YYYY-MM-DD
 - Last updated: YYYY-MM-DD
 - Proposal PR: #...
-- Type: FEATURE | QUALITY | EPIC
+- Type: BEHAVIOR | QUALITY | EPIC
 
 ## Status
 
