@@ -95,7 +95,7 @@ The following commands are available to automate development lifecycle steps.
 ## Utilities
 
 Besides standard Debian utilities available in the bookworm-slim base image,
-the following programs are installed in your environment.
+the following programs are installed in your shell environment.
 
 - **`codespell`**
 - **`curl`**
