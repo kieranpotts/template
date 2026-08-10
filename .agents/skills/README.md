@@ -70,21 +70,21 @@ existed when the session started.
 Two caveats:
 
 1. Only the `<skill-name>` entries within a skills directory are documented as
-   supporting symlinks. Linking the whole `.claude/skills` directory, as above,
-   is undocumented. If a future release stops following it, link each skill
-   individually instead — this is equivalent, but requires a new link whenever
-   a skill is added:
+    supporting symlinks. Linking the whole `.claude/skills` directory, as above,
+    is undocumented. If a future release stops following it, link each skill
+    individually instead — this is equivalent, but requires a new link whenever
+    a skill is added:
 
-   ```sh
-   mkdir -p .claude/skills
-   for skill in .agents/skills/*/; do
-     ln -sfn "../../$skill" ".claude/skills/$(basename "$skill")"
-   done
-   ```
+    ```sh
+    mkdir -p .claude/skills
+    for skill in .agents/skills/*/; do
+      ln -sfn "../../$skill" ".claude/skills/$(basename "$skill")"
+    done
+    ```
 
 2. Git records symlinks as mode `120000` blobs, but a Windows client checks
-   them out as plain text files containing the link target unless
-   `core.symlinks` is enabled *and* the user has Developer Mode enabled or is
-   running an elevated shell. Contributors working on Windows without those
-   prerequisites MUST either satisfy them or replace `.claude/skills` with a
-   copy of `.agents/skills`, kept in sync manually.
+    them out as plain text files containing the link target unless
+    `core.symlinks` is enabled *and* the user has Developer Mode enabled or is
+    running an elevated shell. Contributors working on Windows without those
+    prerequisites MUST either satisfy them or replace `.claude/skills` with a
+    copy of `.agents/skills`, kept in sync manually.

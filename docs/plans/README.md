@@ -27,8 +27,8 @@ The slug is the plan's permanent identity.
 
 ```
 DRAFT ──> PLANNED ──> IN PROGRESS ──> DONE
-             │             │
-             └─────────────┴────────> ABANDONED
+            │             │
+            └─────────────┴────────> ABANDONED
 ```
 
 A plan is a mutable working document while it is open, and becomes immutable
