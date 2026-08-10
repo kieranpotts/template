@@ -14,6 +14,14 @@
   },
   "remoteUser": "code",
   "workspaceFolder": "/workspace",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  // The workspace folder is a Git worktree. Its ".git" file and the bare
+  // repo's admin files both use absolute host paths to link to each other
+  // (Git worktrees don't support relative links). Bind-mount the bare repo
+  // at the identical absolute path inside the container, so the pointer to
+  // it from the `default` worktree resolves.
+  "mounts": [
+    "source=${localWorkspaceFolder}/../.bare,target=${localWorkspaceFolder}/../.bare,type=bind,consistency=cached"
+  ]
 }
 
