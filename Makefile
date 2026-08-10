@@ -19,8 +19,8 @@ test: ## Run the automated test suite
 lint: ## Run the linter
 	./run/lint
 
-release: ## Tag a release point
-	./run/release
+version: ## Tag a release point
+	./run/version
 
 clean: ## Remove build output and caches
 	./run/clean
@@ -28,4 +28,4 @@ clean: ## Remove build output and caches
 help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-.PHONY: install build test lint release clean help
+.PHONY: install build test lint version clean help

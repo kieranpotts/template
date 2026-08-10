@@ -5,7 +5,7 @@
 #
 # Notifies the user of the last tag, prompts for the new version, moves the
 # CHANGELOG.md `[Unreleased]` entries under a new dated version heading,
-# commits the changelog, and creates an annotated Git tag for the release.
+# commits the changelog, and creates an annotated Git tag.
 #
 # This script does NOT push. Once you're ready, push the commit and tag
 # yourself, eg. `git push --follow-tags`.
@@ -32,7 +32,7 @@ tmp_files=()
 cleanup() { rm -f "${tmp_files[@]}"; }
 trap cleanup EXIT
 
-# Refuse to run with a dirty working tree, so the release commit contains
+# Refuse to run with a dirty working tree, so the version commit contains
 # only the changelog update.
 if [[ -n "$(git status --porcelain)" ]]; then
   echo "Working tree is not clean. First, commit or stash your changes." >&2
