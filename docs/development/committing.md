@@ -20,7 +20,7 @@ types, which is written as the prefix of the commit message header.
 | `style`       | Presentation-only changes: whitespace, wrapping, formatter runs.              |
 | `maintenance` | Upkeep: dependency updates, CI config, test and docs improvements.            |
 | `chore`       | Small housekeeping, not worth tracking in the issue tracker.                  |
-| `release`     | Preparation of a new numbered release.                                        |
+| `version`     | Preparation of a new numbered release.                                        |
 | `merge`       | An explicit merge commit.                                                     |
 | `revert`      | Reverting an earlier commit.                                                  |
 
@@ -60,8 +60,8 @@ commit type and a description, separated by a colon and exactly one space.
   …".
 
 - Start with a verb describing the action taken. Two exceptions: a `fix` need
-  only name the problem being fixed, and a `release` need only give the version
-  number.
+  only name the problem being fixed, and a `version` need only give the
+  version number.
 
 - Keep the whole header — type, description, and flag — under 50 characters
   where possible. It MUST NOT exceed 72. Only automated `merge` and `revert`
@@ -78,7 +78,7 @@ step: add openapi specification
 fix: invalid yaml formatting
 refactor: move openapi spec to resources directory
 behavior: enable route to openapi spec
-release: v0.0.0-beta
+version: 0.0.0-beta
 ```
 
 ### Flags
