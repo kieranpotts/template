@@ -65,6 +65,21 @@ repository:
   # Enable vulnerability alerts?
   enable_vulnerability_alerts: true
 
+  # Enable private vulnerability reporting?
+  enable_private_vulnerability_reporting: false
+
+  # Enable immutable releases?
+  enable_immutable_releases: false
+
+  # Enable Git LFS?
+  enable_git_lfs: false
+
+  # Show the sponsor button on this repository?
+  enable_sponsorships: false
+
+  # Who can open issues: 'all' or 'collaborators_only'.
+  issue_creation_policy: collaborators_only
+
 # Define labels for issues and PRs.
 # This is handled separately by the "Push Labels" / "Sync Labels" workflows,
 # which effectively allow labels to be defined once in a single repository and
