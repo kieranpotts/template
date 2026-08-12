@@ -5,7 +5,7 @@
 # https://github.com/Vivswan/github-settings-as-code
 #
 
-name: Apply Settings
+name: Apply GitHub Settings as Code
 
 on:
   push:
