@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Vivswan/repo-settings-as-code/main/lib/settings.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Vivswan/github-settings-as-code/main/lib/settings.schema.json
 
 #
 # GitHub repository configuration-as-code, applied to GitHub by the
@@ -11,7 +11,7 @@
 # to trigger this workflow. The solution is to lock down who can commit/approve
 # changes to this file on the main trunk.
 #
-# https://github.com/Vivswan/repo-settings-as-code
+# https://github.com/Vivswan/github-settings-as-code
 #
 
 repository:
@@ -111,3 +111,51 @@ rulesets:
 
 # Term permissions (org only).
 ##teams:
+
+# Repository Actions secrets.
+##actions_secrets:
+
+# Repository Actions variables.
+##actions_variables:
+
+# Dependabot registry credentials.
+##dependabot_secrets:
+
+# Codespaces development secrets.
+##codespaces_secrets:
+
+# Copilot agents secrets.
+##agents_secrets:
+
+# Copilot agents variables.
+##agents_variables:
+
+# Per-workflow enable/disable state.
+##workflows:
+
+# Auto-trigger check suite toggles.
+##check_suite_preferences:
+
+# GitHub Pages configuration.
+##pages:
+
+# CodeQL default setup.
+##code_scanning_default_setup:
+
+# Code quality analysis setup.
+##code_quality_setup:
+
+# Repository webhooks.
+##webhooks:
+
+# Organization-defined custom property values.
+##custom_properties:
+
+# SSH deploy keys.
+##deploy_keys:
+
+# Custom secret scanning patterns.
+##secret_scanning_custom_patterns:
+
+# Temporary interaction restrictions.
+##interaction_limits:
