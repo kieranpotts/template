@@ -9,33 +9,33 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Team
 
-- **[Name] — Product Owner** \
-  Owns the requirements specification and prioritizes the
-  backlog. First point of contact for scope questions.
+- **[Name], Product Owner.** \
+  Owns the requirements specification and prioritizes the backlog. First
+  point of contact for scope questions.
 
-- **[Name] — Project Lead** \
+- **[Name], Project Lead.** \
   Owns overall direction, priorities, and scope trade-offs. Final
   decision-maker when requirements conflict.
 
-- **[Name] — Tech Lead / Architect** \
-  Owns architecture decisions, design docs, and RFCs.
-  Reviews significant structural changes.
+- **[Name], Tech Lead / Architect.** \
+  Owns architecture decisions, design docs, and RFCs. Reviews significant
+  structural changes.
 
-- **[Name] — Security Lead** \
-  Runs threat modeling sessions, owns the risk register,
-  and reviews changes to authentication, authorization, and data handling.
+- **[Name], Security Lead.** \
+  Runs threat modeling sessions, owns the risk register, and reviews changes
+  to authentication, authorization, and data handling.
 
-- **[Name] — QA / Test Lead** \
-  Owns test strategy and the automated test suite. Signs off on
-  acceptance testing before release.
+- **[Name], QA / Test Lead.** \
+  Owns test strategy and the automated test suite. Signs off on acceptance
+  testing before release.
 
-- **[Name] — Release Manager** \
+- **[Name], Release Manager.** \
   Owns the release process and versioning. Decides when a release branch is
   cut and what ships in it.
 
-- **[Name] — Documentation Owner** \
-  Maintains developer and maintainer docs, including keeping
-  architectural decision records up to date.
+- **[Name], Documentation Owner.** \
+  Maintains developer and maintainer docs, including keeping architectural
+  decision records up to date.
 
 ## Tech stack
 
@@ -44,19 +44,19 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 ## Project structure
 
-- [**`src/`**](./src/) \
+- [`src/`](./src/) \
   Application source.
 
-- [**`tests/`**](./tests/) \
+- [`tests/`](./tests/) \
   Automated tests (unit, integration, system).
 
-- [**`run/`**](./run) \
+- [`run/`](./run) \
   Dev tools (Bash scripts).
 
-- [**`docs/`**](./docs/) \
+- [`docs/`](./docs/) \
   Developer/maintainer docs, including architectural decision records.
 
-- [**`.agents/skills/`**](./.agents/skills/) \
+- [`.agents/skills/`](./.agents/skills/) \
   On-demand context for agents.
 
 ## Documentation
@@ -83,13 +83,13 @@ SHOULD NOT, OPTIONAL, and MAY are to be interpreted as described in
 
 The following commands are available to automate development lifecycle steps.
 
-- **`command`** \
+- `command` \
   Build production-grade artifacts.
 
-- **`command`** \
+- `command` \
   Runs the linter.
 
-- **`command`** \
+- `command` \
   Runs the automated test suite.
 
 ## Utilities
@@ -97,30 +97,31 @@ The following commands are available to automate development lifecycle steps.
 Besides standard Debian utilities available in the bookworm-slim base image,
 the following programs are installed in your shell environment.
 
-- **`codespell`**
-- **`curl`**
-- **`ec`** (editorconfig-checker)
-- **`gh`** (GitHub CLI)
-- **`git`** and **`git-lfs`**
-- **`gpg`** (GnuPG)
-- **`jq`**
-- **`make`**
-- **`nvm`** and **`node`**
-- **`pre-commit`**
-- **`python3`**
-- **`rg`** (ripgrep)
-- **`shellcheck`**
-- **`skills-ref`**
-- **`tar`**
-- **`tmux`**
-- **`unzip`**
-- **`wget`**
+- `codespell`
+- `curl`
+- `ec` (editorconfig-checker)
+- `gh` (GitHub CLI)
+- `git` and `git-lfs`
+- `gpg` (GnuPG)
+- `jq`
+- `make`
+- `nvm` and `node`
+- `pre-commit`
+- `python3`
+- `rg` (ripgrep)
+- `shellcheck`
+- `skills-ref`
+- `tar`
+- `tmux`
+- `unzip`
+- `wget`
 
 ## Rules
 
 - The root [`README`](./README.md) is for _users_ of the project. It covers
-  requirements, installation, and usage. Material for developers and maintainers
-  MUST NOT be included here. That belongs in [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+  requirements, installation, and usage. Material for developers and
+  maintainers MUST NOT be included here. That belongs in
+  [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 - MUST NOT do this.
 
@@ -145,9 +146,9 @@ template those that don't apply.) Ingest the relevant standards on-demand for
 the task at hand.
 
 - [**TS-1: Software Requirements Specification**](https://kieranpotts.com/standards/001) \
-  Use when writing, reviewing, or evaluating a software requirements specification
-  (SRS), acceptance criteria, Gherkin feature files, non-functional qualities, or
-  the lifecycle of product proposals.
+  Use when writing, reviewing, or evaluating a software requirements
+  specification (SRS), acceptance criteria, Gherkin feature files,
+  non-functional qualities, or the lifecycle of product proposals.
 
 - [**TS-2: Software Design Qualities**](https://kieranpotts.com/standards/002) \
   Use when evaluating a software design or guiding an architectural decision.
@@ -169,12 +170,13 @@ the task at hand.
   processes, services, or machines.
 
 - [**TS-7: Code Design**](https://kieranpotts.com/standards/007) \
-  Use when writing or reviewing low-level code structure. Covers naming, abstraction,
-  decomposition, comments, error handling, and layout. Language-agnostic.
+  Use when writing or reviewing low-level code structure. Covers naming,
+  abstraction, decomposition, comments, error handling, and layout.
+  Language-agnostic.
 
 - [**TS-8: Issue Tracking**](https://kieranpotts.com/standards/008) \
-  Use when creating, triaging, or reviewing issues in an issue tracker, or
-  when designing issue-tracking workflows and boards.
+  Use when creating, triaging, or reviewing issues in an issue tracker, or when
+  designing issue-tracking workflows and boards.
 
 - [**TS-9: Version Control**](https://kieranpotts.com/standards/009) \
   Use when working with Git. Covers commits, branching, merging, integration
@@ -214,8 +216,8 @@ the task at hand.
   (non-web-specific).
 
 - [**TS-18: Web GUIs**](https://kieranpotts.com/standards/018) \
-  Use when designing or implementing web-based GUIs. Covers performance optimization,
-  web accessibility (WCAG), and web font handling.
+  Use when designing or implementing web-based GUIs. Covers performance
+  optimization, web accessibility (WCAG), and web font handling.
 
 - [**TS-19: Search Engine Optimization (SEO)**](https://kieranpotts.com/standards/019) \
   Use when creating or optimizing content for search engine ranking.
@@ -226,15 +228,15 @@ the task at hand.
   and observability.
 
 - [**TS-21: HTTP APIs**](https://kieranpotts.com/standards/021) \
-  Use when designing or reviewing an HTTP API. Covers RESTful style, HTTP methods,
-  status codes, resources, and versioning.
+  Use when designing or reviewing an HTTP API. Covers RESTful style, HTTP
+  methods, status codes, resources, and versioning.
 
 - [**TS-22: Webhooks**](https://kieranpotts.com/standards/022) \
   Use when designing or implementing webhooks, as producer or consumer.
 
 - [**TS-23: Messages and Events**](https://kieranpotts.com/standards/023) \
-  Use when designing or implementing messages and events in an intra-organization
-  message-driven architecture.
+  Use when designing or implementing messages and events in an
+  intra-organization message-driven architecture.
 
 - [**TS-24: User Manuals**](https://kieranpotts.com/standards/024) \
   Use when writing or reviewing end-user manuals or product documentation.
@@ -252,7 +254,8 @@ the task at hand.
   PR descriptions, and issue comments.
 
 - [**TS-28: AsciiDoc**](https://kieranpotts.com/standards/028) \
-  Use when writing or reviewing AsciiDoc documents or websites built using Antora.
+  Use when writing or reviewing AsciiDoc documents or websites built using
+  Antora.
 
 - [**TS-29: JSON Schema**](https://kieranpotts.com/standards/029) \
   Use when designing or using JSON Schema. Covers validation, `$ref`, OpenAPI,
@@ -262,8 +265,8 @@ the task at hand.
   Use when writing or reviewing YAML files.
 
 - [**TS-31: Unix Shells and POSIX Standards**](https://kieranpotts.com/standards/031) \
-  Use when authoring or modifying shell scripts that must be POSIX-compliant
-  and run across multiple shells (sh, bash, zsh, dash) and platforms.
+  Use when authoring or modifying shell scripts that must be POSIX-compliant and
+  run across multiple shells (sh, bash, zsh, dash) and platforms.
 
 - [**TS-32: Bash**](https://kieranpotts.com/standards/032) \
   Use when authoring or modifying scripts that target Bash specifically, and
