@@ -141,9 +141,10 @@ Code.
 
 ## References
 
-The following technical standards (TS) govern this project. (Delete from the
-template those that don't apply.) Ingest the relevant standards on-demand for
-the task at hand.
+The following technical standards (TS) govern this project. Fetch and ingest
+the relevant standards as-and-when required for the task at hand.
+
+(Delete from the template those that don't apply.)
 
 - [**TS-1: Software Requirements Specification**](https://kieranpotts.com/standards/001) \
   Use when writing, reviewing, or evaluating a software requirements
