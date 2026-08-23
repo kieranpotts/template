@@ -63,6 +63,7 @@ repository:
   enable_automated_security_fixes: true
 
   # Enable vulnerability alerts?
+  # Required to be true in order to configure automated security fixes.
   enable_vulnerability_alerts: true
 
   # Enable private vulnerability reporting?
@@ -71,8 +72,8 @@ repository:
   # Enable immutable releases?
   enable_immutable_releases: false
 
-  # Enable Git LFS?
-  enable_git_lfs: false
+  # Enable Git LFS? (Disabled because this is mysteriously breaking the pipeline.)
+  ##enable_git_lfs: false
 
   # Show the sponsor button on this repository?
   enable_sponsorships: false
