@@ -146,15 +146,15 @@ the relevant standards as-and-when required for the task at hand.
 
 (Delete from the template those that don't apply.)
 
-- [**TS-1: Software Requirements Specification**](https://kieranpotts.com/standards/001) \
+- [**TS-1: Software requirements specification**](https://kieranpotts.com/standards/001) \
   Use when writing, reviewing, or evaluating a software requirements
   specification (SRS), acceptance criteria, Gherkin feature files,
   non-functional qualities, or the lifecycle of product proposals.
 
-- [**TS-2: Software Design Qualities**](https://kieranpotts.com/standards/002) \
+- [**TS-2: Software architecture qualities**](https://kieranpotts.com/standards/002) \
   Use when evaluating a software design or guiding an architectural decision.
 
-- [**TS-3: Design Docs**](https://kieranpotts.com/standards/003) \
+- [**TS-3: Design docs**](https://kieranpotts.com/standards/003) \
   Use when writing, reviewing, or maintaining design docs, RFCs, architecture
   decision records (ADRs), or architecture audit reports.
 
@@ -162,24 +162,24 @@ the relevant standards as-and-when required for the task at hand.
   Use when defining architectural views (conceptual, logical, development,
   process, physical, etc.) or choosing tools/notations for system modeling.
 
-- [**TS-5: Application Architecture**](https://kieranpotts.com/standards/005) \
+- [**TS-5: Application architecture**](https://kieranpotts.com/standards/005) \
   Use when designing or reviewing the architecture of a standalone application,
   library, service, or microservice.
 
-- [**TS-6: Distributed System Design**](https://kieranpotts.com/standards/006) \
+- [**TS-6: Distributed system design**](https://kieranpotts.com/standards/006) \
   Use when designing or reviewing a system distributed across multiple
   processes, services, or machines.
 
-- [**TS-7: Code Design**](https://kieranpotts.com/standards/007) \
+- [**TS-7: Code design**](https://kieranpotts.com/standards/007) \
   Use when writing or reviewing low-level code structure. Covers naming,
   abstraction, decomposition, comments, error handling, and layout.
   Language-agnostic.
 
-- [**TS-8: Issue Tracking**](https://kieranpotts.com/standards/008) \
+- [**TS-8: Issue tracking**](https://kieranpotts.com/standards/008) \
   Use when creating, triaging, or reviewing issues in an issue tracker, or when
   designing issue-tracking workflows and boards.
 
-- [**TS-9: Version Control**](https://kieranpotts.com/standards/009) \
+- [**TS-9: Version control**](https://kieranpotts.com/standards/009) \
   Use when working with Git. Covers commits, branching, merging, integration
   strategies, cutting releases, and configuring Git/PR/CI tooling.
 
@@ -191,28 +191,28 @@ the relevant standards as-and-when required for the task at hand.
   Use when choosing a versioning scheme, formatting version strings, or tagging
   releases (SemVer, CalVer).
 
-- [**TS-12: Quality Assurance**](https://kieranpotts.com/standards/012) \
+- [**TS-12: Quality assurance**](https://kieranpotts.com/standards/012) \
   Use when designing or reviewing the QA process. Covers quality culture, the
   Definition of Done, code review, quality gates, and quality metrics.
 
-- [**TS-13: Functional Testing**](https://kieranpotts.com/standards/013) \
+- [**TS-13: Functional testing**](https://kieranpotts.com/standards/013) \
   Use when designing, writing, or reviewing functional tests. Covers test
   strategy, types, levels, coverage, test doubles, and TDD.
 
-- [**TS-14: Performance Testing**](https://kieranpotts.com/standards/014) \
+- [**TS-14: Performance testing**](https://kieranpotts.com/standards/014) \
   Use when testing non-functional requirements. Covers testing of performance
   (latency and throughout) testing, load testing, accessibility testing,
   compliance testing, security testing, and more.
 
-- [**TS-15: User Interfaces**](https://kieranpotts.com/standards/015) \
+- [**TS-15: User interfaces**](https://kieranpotts.com/standards/015) \
   Use when designing any human-computer interface (GUI, TUI, CLI, or API) at a
   level general to all interface types.
 
-- [**TS-16: Command Line Interfaces (CLIs)**](https://kieranpotts.com/standards/016) \
+- [**TS-16: Command line interfaces (CLIs)**](https://kieranpotts.com/standards/016) \
   Use when designing, writing, or reviewing command line interfaces. Covers
   option flags, subcommands, piping, exit codes, output, and errors.
 
-- [**TS-17: Graphical User Interfaces (GUIs)**](https://kieranpotts.com/standards/017) \
+- [**TS-17: Graphical user interfaces (GUIs)**](https://kieranpotts.com/standards/017) \
   Use when designing or reviewing a graphical user interface in general
   (non-web-specific).
 
@@ -220,7 +220,7 @@ the relevant standards as-and-when required for the task at hand.
   Use when designing or implementing web-based GUIs. Covers performance
   optimization, web accessibility (WCAG), and web font handling.
 
-- [**TS-19: Search Engine Optimization (SEO)**](https://kieranpotts.com/standards/019) \
+- [**TS-19: Search engine optimization (SEO)**](https://kieranpotts.com/standards/019) \
   Use when creating or optimizing content for search engine ranking.
 
 - [**TS-20: Network APIs**](https://kieranpotts.com/standards/020) \
@@ -235,18 +235,18 @@ the relevant standards as-and-when required for the task at hand.
 - [**TS-22: Webhooks**](https://kieranpotts.com/standards/022) \
   Use when designing or implementing webhooks, as producer or consumer.
 
-- [**TS-23: Messages and Events**](https://kieranpotts.com/standards/023) \
+- [**TS-23: Messages and events**](https://kieranpotts.com/standards/023) \
   Use when designing or implementing messages and events in an
   intra-organization message-driven architecture.
 
-- [**TS-24: User Manuals**](https://kieranpotts.com/standards/024) \
+- [**TS-24: User manuals**](https://kieranpotts.com/standards/024) \
   Use when writing or reviewing end-user manuals or product documentation.
 
-- [**TS-25: Technical Documentation**](https://kieranpotts.com/standards/025) \
+- [**TS-25: Technical documentation**](https://kieranpotts.com/standards/025) \
   Use when deciding what documentation a project needs, where it should live,
   who it's for, or whether it's still trustworthy.
 
-- [**TS-26: Technical Writing Style Guide**](https://kieranpotts.com/standards/026) \
+- [**TS-26: Technical writing style guide**](https://kieranpotts.com/standards/026) \
   Use when writing or editing the prose of a technical document. Covers
   tone-of-voice, headings, terminology, lists, and citations.
 
@@ -265,7 +265,7 @@ the relevant standards as-and-when required for the task at hand.
 - [**TS-30: YAML**](https://kieranpotts.com/standards/030) \
   Use when writing or reviewing YAML files.
 
-- [**TS-31: Unix Shells and POSIX Standards**](https://kieranpotts.com/standards/031) \
+- [**TS-31: Unix shells and POSIX standards**](https://kieranpotts.com/standards/031) \
   Use when authoring or modifying shell scripts that must be POSIX-compliant and
   run across multiple shells (sh, bash, zsh, dash) and platforms.
 
@@ -287,11 +287,11 @@ the relevant standards as-and-when required for the task at hand.
   Use when writing or reviewing JavaScript or TypeScript source code. Covers
   syntax, modules, async programming, functional patterns, and testing.
 
-- [**TS-37: Web Platform APIs**](https://kieranpotts.com/standards/037) \
+- [**TS-37: Web platform APIs**](https://kieranpotts.com/standards/037) \
   Use when working with browser/runtime web platform APIs and the HTTP protocol,
   distinct from a specific language or framework.
 
-- [**TS-38: Node.js Applications**](https://kieranpotts.com/standards/038) \
+- [**TS-38: Node.js applications**](https://kieranpotts.com/standards/038) \
   Use when designing, building, or deploying Node.js applications.
 
 - [**TS-39: HTML**](https://kieranpotts.com/standards/039) \
@@ -307,51 +307,51 @@ the relevant standards as-and-when required for the task at hand.
 - [**TS-42: Vue**](https://kieranpotts.com/standards/042) \
   Use when writing, reviewing, or refactoring Vue component code.
 
-- [**TS-43: Relational Databases and SQL**](https://kieranpotts.com/standards/043) \
+- [**TS-43: Relational databases and SQL**](https://kieranpotts.com/standards/043) \
   Use when designing schemas or writing SQL for a relational database.
 
-- [**TS-44: Non-Relational (NoSQL) Databases**](https://kieranpotts.com/standards/044) \
+- [**TS-44: Non-relational (NoSQL) databases**](https://kieranpotts.com/standards/044) \
   Use when designing schemas or working with a non-relational (NoSQL) database.
 
-- [**TS-45: Data Migrations**](https://kieranpotts.com/standards/045) \
+- [**TS-45: Data migrations**](https://kieranpotts.com/standards/045) \
   Use when planning, executing, validating, or rolling back a data migration.
 
-- [**TS-46: Distributed Data and Caching**](https://kieranpotts.com/standards/046) \
+- [**TS-46: Distributed data and caching**](https://kieranpotts.com/standards/046) \
   Use when designing distributed data or caching strategies. Covers consistency,
   replication, and cache placement.
 
-- [**TS-47: Dates and Times**](https://kieranpotts.com/standards/047) \
+- [**TS-47: Dates and times**](https://kieranpotts.com/standards/047) \
   Use when designing or implementing systems that store, transmit, or display
   date and time values.
 
-- [**TS-48: Environment Variables**](https://kieranpotts.com/standards/048) \
+- [**TS-48: Environment variables**](https://kieranpotts.com/standards/048) \
   Use when designing or implementing application configuration via environment
   variables.
 
-- [**TS-49: Cloud Platform Engineering**](https://kieranpotts.com/standards/049) \
+- [**TS-49: Cloud platform engineering**](https://kieranpotts.com/standards/049) \
   Use when designing or building self-service internal cloud platforms for
   development teams.
 
-- [**TS-50: Cloud Economics**](https://kieranpotts.com/standards/050) \
+- [**TS-50: Cloud economics**](https://kieranpotts.com/standards/050) \
   Use when making strategic or architectural decisions about cloud spending,
   auto-scaling cost controls, or cloud-vs-dedicated-server trade-offs.
 
 - [**TS-51: Amazon Web Services (AWS)**](https://kieranpotts.com/standards/051) \
   Use when designing, provisioning, or governing AWS resources.
 
-- [**TS-52: Security and Secrets Management**](https://kieranpotts.com/standards/052) \
+- [**TS-52: Security and secrets management**](https://kieranpotts.com/standards/052) \
   Use when designing, implementing, or reviewing application security,
   authentication, authorization, or secrets handling.
 
-- [**TS-53: Privacy and Data Protection**](https://kieranpotts.com/standards/053) \
+- [**TS-53: Privacy and data protection**](https://kieranpotts.com/standards/053) \
   Use when designing, implementing, or reviewing systems that collect, store, or
   process personal data (PII, GDPR, HIPAA, PCI).
 
-- [**TS-54: Threat Modeling**](https://kieranpotts.com/standards/054) \
+- [**TS-54: Threat modeling**](https://kieranpotts.com/standards/054) \
   Use when designing, reviewing, or iterating on a system's security posture.
   Covers threat modeling workshops and maintenance of a project's risk register.
 
-- [**TS-55: Authentication and Authorization**](https://kieranpotts.com/standards/055) \
+- [**TS-55: Authentication and authorization**](https://kieranpotts.com/standards/055) \
   Use when designing, implementing, or reviewing authentication and
   authorization mechanisms.
 
@@ -359,7 +359,7 @@ the relevant standards as-and-when required for the task at hand.
   Use when designing, implementing, or reviewing JWT-based authentication or
   authorization.
 
-- [**TS-57: Logging, Monitoring, Observability**](https://kieranpotts.com/standards/057) \
+- [**TS-57: Logging, monitoring, observability**](https://kieranpotts.com/standards/057) \
   Use when designing or implementing logging, monitoring, alerting, or metrics
   collection.
 
@@ -375,7 +375,7 @@ the relevant standards as-and-when required for the task at hand.
   Use when designing, authoring, reviewing, or securing GitHub Actions workflows
   or custom actions.
 
-- [**TS-61: AI Tools**](https://kieranpotts.com/standards/061) \
+- [**TS-61: AI tools**](https://kieranpotts.com/standards/061) \
   Use when planning or executing coding tasks, managing your own context,
   authoring AGENTS.md files or agent skills, calling tools, or handling
   untrusted content.
@@ -384,5 +384,5 @@ the relevant standards as-and-when required for the task at hand.
   Use when authoring or modifying `Makefile`s, including project task runners
   built on GNU Make.
 
-- [**TS-63: URL Design**](https://kieranpotts.com/standards/063) \
+- [**TS-63: URL design**](https://kieranpotts.com/standards/063) \
   Use when designing or reviewing the URL structure of any HTTP service.
