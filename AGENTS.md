@@ -151,7 +151,7 @@ the relevant standards as-and-when required for the task at hand.
   specification (SRS), acceptance criteria, Gherkin feature files,
   non-functional qualities, or the lifecycle of product proposals.
 
-- [**TS-2: Software architecture qualities**](https://kieranpotts.com/standards/002) \
+- [**TS-2: Software design qualities**](https://kieranpotts.com/standards/002) \
   Use when evaluating a software design or guiding an architectural decision.
 
 - [**TS-3: Design docs**](https://kieranpotts.com/standards/003) \
