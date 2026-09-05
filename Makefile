@@ -5,27 +5,32 @@
 # See: docs > development > tools.
 #
 
-.DEFAULT_GOAL := help
+.PHONY: install build test lint version clean help
 
-install: ## Install project dependencies
+help:
+	@echo "Available targets:"
+	@echo "  install  - Install project dependencies"
+	@echo "  build    - Build production-grade artifacts"
+	@echo "  test     - Run the automated test suite"
+	@echo "  lint     - Run the linter"
+	@echo "  version  - Tag a release point"
+	@echo "  clean    - Remove build output and caches"
+	@echo "  help     - Show this help message"
+
+install:
 	./run/install
 
-build: ## Build production-grade artifacts
+build:
 	./run/build
 
-test: ## Run the automated test suite
+test:
 	./run/test
 
-lint: ## Run the linter
+lint:
 	./run/lint
 
-version: ## Tag a release point
+version:
 	./run/version
 
-clean: ## Remove build output and caches
+clean:
 	./run/clean
-
-help: ## Show this help message
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
-
-.PHONY: install build test lint version clean help
