@@ -19,6 +19,10 @@
     should be applied at 80 characters, except for tables and long URLs. */
     "editor.wordWrap": "on",
 
+    /* OR: Wrap documentation files at the viewport width or 160. */
+    // "editor.wordWrap": "bounded",
+    // "editor.wordWrapColumn": 160,
+
     /* Enable auto-formatting for Asciidoc files. */
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -34,6 +38,10 @@
     /* Wrap documentation files at the viewport width. Hard-wrapping
     should be applied at 80 characters, except for tables and long URLs. */
     "editor.wordWrap": "on",
+
+    /* OR: Wrap documentation files at the viewport width or 160. */
+    // "editor.wordWrap": "bounded",
+    // "editor.wordWrapColumn": 160,
 
     /* Enable auto-formatting for Markdown files. */
     "editor.formatOnPaste": true,
@@ -63,6 +71,10 @@
   "[skill]": {
     /* Matches Markdown settings. */
     "editor.wordWrap": "on",
+
+    /* OR: */
+    // "editor.wordWrap": "bounded",
+    // "editor.wordWrapColumn": 160,
 
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,

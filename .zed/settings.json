@@ -17,7 +17,17 @@
     },
     "Markdown": {
       "soft_wrap": "editor_width"
-    }
+    },
+
+    /* OR: Wrap documentation files at the viewport or 160 characters.  */
+    // "AsciiDoc": {
+    //   "soft_wrap": "bounded",
+    //   "preferred_line_length": 160
+    // },
+    // "Markdown": {
+    //   "soft_wrap": "bounded",
+    //   "preferred_line_length": 160
+    // }
 
   }
 }
