@@ -38,6 +38,6 @@ jobs:
       # `ADMIN_TOKEN` is a fine-grained PAT with at least `administration: write`
       # on this repository. See the developer docs for setup instructions.
       - name: Apply settings
-        uses: Vivswan/github-settings-as-code@046adf3b24454f26f569850630809bcf481f8b84 # v2.0.0
+        uses: Vivswan/github-settings-as-code@050e4fc94a80e27a1f69c3179aa65f0a2ba1281a # v3.0.1
         with:
           token: ${{ secrets.ADMIN_TOKEN }}
